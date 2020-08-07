@@ -1,3 +1,3 @@
 # Affirmation Generator
 
-A simple random affirmation generator made with React
+A random affirmation generator made with React
