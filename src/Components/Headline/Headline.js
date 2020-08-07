@@ -1,9 +1,9 @@
 import React from "react";
 
-import classes from "./Headline.css";
+import styles from "./Headline.module.css";
 
 const headline = () => {
-  return <h1 className={classes.headline}>Affirmation Generator</h1>;
+  return <h1 className={styles.headline}>Affirmation Generator</h1>;
 };
 
 export default headline;
