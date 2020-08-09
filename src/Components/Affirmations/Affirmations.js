@@ -10,14 +10,18 @@ class Affirmations extends Component {
 
   shuffle = () => {
     let affirmations = [
-      "You are a lovable, wonderful friend.",
-      "You are super talented! Look at you go!",
-      "Someone in your life looks up to you, you're amazing!",
-      "You deserve nothing but the best!",
-      "You're doing a great job.",
-      "You're here because you matter.",
+      "You are loving and loved.",
+      "You are open and receptive to all of the wealth life offers you.",
+      "There are others who are inspired by you.",
+      "You attract lucrative opportunities.",
+      "You give out love and it is returned to you multiplied.",
+      "Your possibilities are endless.",
       "You are beautiful inside and out.",
-      "Here's a reminder: love yourself first.",
+      "Good things are waiting to happen to you.",
+      "You can manifest perfect health by making smart choices.",
+      "You will never give up on your dreams.",
+      "Every day you are getting stronger",
+      "You are much smarter and more capable than even you know.",
     ];
 
     let index = Math.floor(Math.random() * Math.floor(affirmations.length));
