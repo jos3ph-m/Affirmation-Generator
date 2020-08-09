@@ -21,7 +21,7 @@ class Affirmations extends Component {
       "You can manifest perfect health by making smart choices.",
       "You will never give up on your dreams.",
       "Every day you are getting stronger",
-      "You are much smarter and more capable than even you know.",
+      "You are much smarter and more capable than you know.",
     ];
 
     let index = Math.floor(Math.random() * Math.floor(affirmations.length));
