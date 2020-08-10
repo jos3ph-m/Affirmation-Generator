@@ -25,6 +25,9 @@ class Affirmations extends Component {
 
     let index = Math.floor(Math.random() * Math.floor(affirmations.length));
     let newMessage = affirmations[index];
+    if (this.state.message === newMessage) {
+      this.shuffle();
+    }
     this.setState({ message: newMessage });
   };
 
