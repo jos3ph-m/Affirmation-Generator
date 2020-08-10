@@ -1,10 +1,14 @@
 .App {
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+
+  width: 80%;
+  margin: auto;
 }
 
 html {
-  background-color: #e4d6cf;
+  background-color: #d3a086;
 }

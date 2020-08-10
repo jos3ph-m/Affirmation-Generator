@@ -1,12 +1,13 @@
 .info {
   font-family: "Open Sans";
   max-width: 300px;
+  font-size: 14px;
   text-align: center;
-  margin: auto;
+  margin: 0px auto 40px;
 }
 
 @media (min-width: 600px) {
   .info {
-    max-width: 500px;
+    max-width: 300px;
   }
 }

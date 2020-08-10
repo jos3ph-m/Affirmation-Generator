@@ -2,10 +2,11 @@
   width: 200px;
   height: 60px;
   border: none;
-  border-radius: 3px;
+  border-radius: 50px;
   font-size: 20px;
   color: white;
-  background-color: #b1740f;
+  background-color: #975f05;
+  margin-top: 20px;
 }
 
 .button:focus {
@@ -14,8 +15,17 @@
 }
 
 .affirmation {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
-  padding: 20px;
-  height: 120px;
+  padding: 50px 50px;
+  height: 100px;
+  background-color: #fffaf7;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+@media (min-width: 600px) {
+  .affirmation {
+    max-width: 600px;
+  }
 }
