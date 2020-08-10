@@ -1,0 +1,13 @@
+.bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(8, 51, 87);
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 5px;
+}

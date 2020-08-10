@@ -4,6 +4,7 @@ import "./App.css";
 import Headline from "./Components/Headline/Headline";
 import Info from "./Components/Info/Info";
 import Affirmations from "./Components/Affirmations/Affirmations";
+import Bottom from "./Components/Bottom/Bottom";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Headline />
         <Info />
         <Affirmations />
+        <Bottom />
       </div>
     );
   }
