@@ -1,3 +1,10 @@
 .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+}
+
+html {
+  background-color: #e4d6cf;
 }

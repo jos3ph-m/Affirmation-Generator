@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-// import Affirmation from "./Affirmation/Affirmation";
-// import Button from "./Button/Button";
+import styles from "./Affirmations.module.css";
 
 class Affirmations extends Component {
   state = {
@@ -32,8 +31,10 @@ class Affirmations extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.message}</p>
-        <button onClick={this.shuffle}>Generate</button>
+        <p className={styles.affirmation}>{this.state.message}</p>
+        <button className={styles.button} onClick={this.shuffle}>
+          Generate
+        </button>
       </div>
     );
   }

@@ -1,0 +1,21 @@
+.button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  background-color: #b1740f;
+}
+
+.button:focus {
+  outline: none;
+  border: none;
+}
+
+.affirmation {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  height: 120px;
+}

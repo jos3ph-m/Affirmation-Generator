@@ -1,5 +1,14 @@
 .headline {
+  margin-top: 100px;
+  padding: 20px;
   font-family: "Abril Fatface", cursive;
-  font-size: 38px;
+  font-size: 28px;
   letter-spacing: 2px;
+  color: #16130e;
+}
+
+@media (min-width: 600px) {
+  .headline {
+    font-size: 34px;
+  }
 }
