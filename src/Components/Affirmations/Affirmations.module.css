@@ -7,11 +7,16 @@
   color: white;
   background-color: #975f05;
   margin-top: 20px;
+  transition: all 0.1s;
 }
 
 .button:focus {
   outline: none;
   border: none;
+}
+
+.button:active {
+  transform: scale(0.98);
 }
 
 .affirmation {
