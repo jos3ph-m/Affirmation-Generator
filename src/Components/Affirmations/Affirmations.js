@@ -4,7 +4,7 @@ import styles from "./Affirmations.module.css";
 
 class Affirmations extends Component {
   state = {
-    message: "Click generate below",
+    message: "",
   };
 
   shuffle = () => {
